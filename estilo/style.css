@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --cor-letras:#f0f8ff;
+    --cor-principal:#74CAF7;
+    --cor-segundaria:#74F7A3;
+    --cor-extras:#74A0F7;
+    --cor-extras2:#74F7D0;
+    --cor-extras3:#74CAF7;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.1em;
+    letter-spacing: 1px;
+    color: var(--cor-letras);
+}
+
+#menu{
+    background-color: #74A0F7;
+    padding: 10px;
+}
+
+#menu > ul{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: end;
+    gap:10px;
+
+    list-style: none;
+}
+
+#menu > ul > li{
+    
+}
+
+#menu a{
+    color: var(--cor-letras);
+    text-decoration: none;
+}
